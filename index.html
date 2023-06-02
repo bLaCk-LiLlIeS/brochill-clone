@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Nunito+Sans:wght@400;600;700;800&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+     
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    nav{
+        height: 4vh;
+        background-color: rgb(33,125,4);
+        width: 100vw;
+    }
+    ul{
+        display: flex;
+        height: 4vh;
+        align-items: center;
+        padding-left: 24px;
+        list-style: none;
+        /* padding-top: 2px; */
+    }
+    li{
+        padding-left: 14px;
+
+    }
+    header{
+        height: 10vh;
+        background-color: rgb(68,177,44);
+        display: flex;
+        align-items: center;
+        /* position:fixed; */
+        width: 100vw;
+        justify-content: space-between;
+    }
+    .left{
+        margin-left: 40px;
+
+    }
+    .right{
+        margin-right: 110px;
+          padding-right: 8px;
+    }
+    .content{
+        height: 65vh;
+        width: 100vw;
+        background: linear-gradient( white,rgb(170,254,147));
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        text-align: center;
+    }
+    .incontent{
+        
+        width: 80vw;
+        display: flex;
+        margin: auto;
+        align-items: center;
+    }
+    .animate{
+        /* animation: mymove 1s linear 5s infinite running slidein ; */
+        animation:mymove 5s  linear;
+       
+    }
+    @keyframes mymove {
+  from {background-color: white;}
+  to {background-color: rgb(14,189,63);}
+}
+.cimage{
+    height: 50vh;
+    width: 50vw;
+}
+.cleft{
+    width: 30vw;
+    font-size: larger;
+    line-height: 1.6;
+}
+.cimage{
+    object-fit: contain;
+}
+.line{
+    width: 4px;
+    height: 25vh;
+    margin-right: 14px;
+    background-color:rgb(242,242,242);
+}
+.fa-brands:hover{
+    color: rgb(123, 233, 123);
+}
+.content02{
+    margin-top: 70px;
+}
+.heads{
+    line-height: 2.5;
+}
+.heads02{
+    margin-top: 60px;
+    line-height: 1.6;
+}
+ol{
+    width: 15vw;
+    line-height: 1.6;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: "ABeeZee", Sans-serif;
+    /* font-size: medium; */
+}
+.a{
+    line-height: 3;
+}
+li:hover{
+    color: rgb(123, 233, 123);
+}
+/* .fix{
+    position: fixed  ;
+} */
+/* i:hover{
+    color: green;
+} */
+</style>
+<body>
+    <!-- navbar for social media icons -->
+    <div class="fix">
+    <nav>
+        <ul>
+            <li> <a href=""> <i class="fa-brands fa-square-facebook " style="color: #ffffff;"></i></a></li>
+            <li> <a href=""> <i class="fa-brands fa-square-instagram " style="color: #ffffff;"></i></a></li>
+            <li> <a href=""> <i class="fa-brands fa-youtube " style="color: #ffffff;"></i></a></li>
+            <li> <a href=""> <i class="fa-brands fa-twitter " style="color: #ffffff;"></i></a></li>
+            <li> <a href=""> <i class="fa-brands fa-linkedin " style="color: #ffffff;"></i></a></li>
+        </ul>
+    </nav>
+    <!-- head navbar -->
+    <header>
+       <div class="left">
+        <a href=""> <img src="https://www.brochill.com/wp-content/uploads/2021/09/cropped-brochill-logo.png" alt=""></a>
+       </div> 
+       <div class="right">
+          <ul>
+            <li>Home</li>
+            <li>Explore</li>
+            <li>Contact</li>
+            <li>Content & Community guidelines</li>
+            <li>Terms of Service</li>
+            <li>Privacy Policy</li>
+            <li>Contact</li>
+          </ul>
+       </div>
+    </header>
+</div>
+    <!-- brochill  -->
+    <section class="content">
+        <div > 
+            <div class="heads">
+        <h1 style="font-size: 60px;">BroChill</h1>
+        <h3>Local is the New Global</h3>
+        <h3>India's biggest localized content creation platform</h3>
+    </div>
+    <div class="heads02">
+         <a href=""> <img src="https://www.brochill.com/wp-content/uploads/2021/09/google-playstore-icon-1.png" alt=""></a>
+            <p style="font-size: 50px;">32,056,732</p>
+        <h3>32M+ Strong Downloads</h3>
+    </div>
+    </div>
+    </section>
+    <!-- article content -->
+    <section class="content02">
+     <center>   <h2 class="animate" style="background-color: rgb(14,189,63); display: inline; ">What is Bro Chill?</h2></center>
+        <div class="incontent">
+            <span class="line"></span>
+        <article class="cleft" >Brochill is a vernacular content platform. It is
+             a personalizable content discovery platform. Creators
+              post personalisable images and videos, and users consume
+               them. All content is curated based on trends, events and 
+               festivals.
+        </article>
+        <img class="cimage" src="https://www.brochill.com/wp-content/uploads/2021/09/what-is-brochill2-1.png" alt="">
+    </div>
+    </section>
+    <!-- article-02 -->
+    <section class="content02">
+     <center>   <h2 style="background-color: rgb(14,189,63); display: inline; ">What do we do?</h2></center>
+
+           <div class="incontent">
+               <span class="line" style="width: 4px;
+               height: 30vh;
+               margin-right: 14px;
+               background-color:rgb(242,242,242);"></span>
+           <article class="cleft" >
+            BroChill provides a platform for innovative content
+             creators. Where creators can post personalizable videos,
+              personalizable images, and short videos on BroChill. All
+               content posted by creators is curated based on user interests
+               , social ratings, trends, events, special days, and festivals.
+           </article>
+           <img class="cimage" src="https://www.brochill.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-30-at-10.20.04.jpeg" alt="">
+       </div>
+       </section>
+       <!-- article-03 -->
+       <section class="content02">
+           <div class="incontent">
+               <span class="line" style="width: 4px;
+               height: 35vh;
+               margin-right: 14px;
+               background-color:rgb(242,242,242);"></span>
+           <article class="cleft" >
+            BroChill provides a platform for vernacular 
+            consumers. They can consume the content by creating 
+            their own video and images from personalizable content
+             which is posted by content creators. BroChill curates 
+             all content and provides different types of collections
+              based on categories. Where consumers can easily find and 
+              create their own videos and images within one minute.
+           </article>
+           <img class="cimage" src="https://www.brochill.com/wp-content/uploads/2021/09/what-we-do22.png" alt="">
+       </div>
+       </section>
+       <!-- footer -->
+       <footer style="height: 70vh; display: flex; justify-content: space-around;padding: 0 200px;" >
+        <ol>
+            <li><h1>BroChill</h1></li>
+            <li>Third Floor, Ravi Chambers, Kavuri Hills, Madhapur, Telangana 500083.</li>
+            <li>Email: contact@brochill.com</li>
+        </ol>
+        <ol>
+            <li><h1>Legal</h1></li>
+            <li>  &#10095; &nbsp;Terms of Services</li>
+            <li>  &#10095; &nbsp;Connect Community Guidelines</li>
+            <li>  &#10095; &nbsp;Privacy Policy</li>
+        </ol>
+        <ol>
+           <li> <h1>Follow Us</h1></li>
+           <li> &#10095; &nbsp; Facebook</li>
+           <li> &#10095; &nbsp; Instagram</li>
+           <li> &#10095; &nbsp; LinkedIn</li>
+           <li> &#10095; &nbsp; Twitter</li>
+           <li> &#10095; &nbsp; Youtube</li>
+        </ol>
+        <ol>
+            <li><h1>Rate Us</h1></li>
+            <li> &#10095; &nbsp;PlayStore</li>
+        </ol>
+        <ol>
+            <li><h1>Menu</h1></li>
+            <li class="a">Home</li>
+            <li class="a">Explore</li>
+            <li class="a">Contact</li>
+            <li class="a">Content & Community Guidelines</li>
+            <li class="a">Terms of Service</li>
+            <li class="a">Privacy Policy</li>
+            <li class="a">Contact</li>
+        </ol>
+       </footer>
+       <div style="background-color: black; color: white;" >
+        <table>
+            <tbody>
+                <tr style="display: flex; justify-content: space-around; width: 100vw;">
+                    <td> &#169;Copyright BroChill. All Rights Reserved</td>
+                    <td>
+                        <ul>
+                            <li> <a href=""> <i class="fa-brands fa-square-facebook " style="color: #ffffff;"></i></a></li>
+                            <li> <a href=""> <i class="fa-brands fa-square-instagram " style="color: #ffffff;"></i></a></li>
+                            <li> <a href=""> <i class="fa-brands fa-youtube " style="color: #ffffff;"></i></a></li>
+                            <li> <a href=""> <i class="fa-brands fa-twitter " style="color: #ffffff;"></i></a></li>
+                            <li> <a href=""> <i class="fa-brands fa-linkedin " style="color: #ffffff;"></i></a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
+</body>
+</html>
